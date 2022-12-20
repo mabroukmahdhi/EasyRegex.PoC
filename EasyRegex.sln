@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyRegex.PoC", "EasyRegex.PoC\EasyRegex.PoC.csproj", "{F2F0758D-7770-42F2-BDDE-89470945AC35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyRegex.PoC", "EasyRegex.PoC\EasyRegex.PoC.csproj", "{F2F0758D-7770-42F2-BDDE-89470945AC35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyRegex.PoC.Tests.Unit", "EasyRegex.PoC.Tests.Unit\EasyRegex.PoC.Tests.Unit.csproj", "{4B43F548-ACB9-4358-9494-1B4518BB41DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F2F0758D-7770-42F2-BDDE-89470945AC35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2F0758D-7770-42F2-BDDE-89470945AC35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2F0758D-7770-42F2-BDDE-89470945AC35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B43F548-ACB9-4358-9494-1B4518BB41DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B43F548-ACB9-4358-9494-1B4518BB41DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B43F548-ACB9-4358-9494-1B4518BB41DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B43F548-ACB9-4358-9494-1B4518BB41DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
